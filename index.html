@@ -21,24 +21,49 @@
     </nav>
     <a href="#" class="btn btn-success px-4 py-2 fw-semibold rounded-pill">Sell Something</a>
   </header>
+
   <section class="container my-5">
-  <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-  <img src="images/mtavari.jpg" class="card-img" alt="City">
-  <div class="card-img-overlay d-flex flex-column justify-content-start align-items-center text-center">
-    <h1 class="fw-bold display-5 mt-3 mb-3">Find the house you want easily</h1>
-    <p class="lead mb-3">Other text goes here</p>
-    <p class="text-muted mb-4">Buy, sell, rent or lease on just one platform</p>
-    <div class="input-group w-50">
-      <input type="text" class="form-control rounded-start-pill" placeholder="Search...">
-      <button class="btn btn-light border rounded-end-pill">
-        <i class="bi bi-search"></i>
-      </button>
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="card border-0 shadow-sm rounded-4 sidebar-card">
+          <h5 class="fw-bold mb-3">Property Type</h5>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><input type="checkbox" id="house" class="form-check-input me-2"><label for="house">Houses & Apartments for Rent | 9548</label></li>
+            <li class="mb-2"><input type="checkbox" id="apartment" class="form-check-input me-2"><label for="apartment">Houses & Apartments for Sale | 9548</label></li>
+            <li class="mb-2"><input type="checkbox" id="studio" class="form-check-input me-2"><label for="studio">Land & Plots for Rent | 9548</label></li>
+            <li class="mb-2"><input type="checkbox" id="villa" class="form-check-input me-2"><label for="villa">Land & Plots for Sale | 9548</label></li>
+            <li class="mb-2"><input type="checkbox" id="shortlet" class="form-check-input me-2"><label for="shortlet">Short Let Property | 9548</label></li>
+            <li class="mb-2"><input type="checkbox" id="commercial" class="form-check-input me-2"><label for="commercial">Commercial Property for Rent | 9548</label></li>
+          </ul>
+
+          <h5 class="fw-bold mb-3">Price Range</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><input type="checkbox" id="range1" class="form-check-input me-2"><label for="range1">Under 13 K • 2183 ads</label></li>
+            <li class="mb-2"><input type="checkbox" id="range2" class="form-check-input me-2"><label for="range2">13 - 160 K • 2183 ads</label></li>
+            <li class="mb-2"><input type="checkbox" id="range3" class="form-check-input me-2"><label for="range3">160 K - 6 M • 2183 ads</label></li>
+            <li class="mb-2"><input type="checkbox" id="range4" class="form-check-input me-2"><label for="range4">6 - 55 M • 2183 ads</label></li>
+            <li class="mb-2"><input type="checkbox" id="range5" class="form-check-input me-2"><label for="range5">Above 55 M • 2183 ads</label></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+          <img src="images/mtavari.jpg" class="card-img" alt="City">
+          <div class="card-img-overlay d-flex flex-column justify-content-start align-items-center text-center">
+            <h1 class="fw-bold display-5 mt-3 mb-3">Find the house you want easily</h1>
+            <p class="lead mb-3">Other text goes here</p>
+            <p class="text-muted mb-4">Buy, sell, rent or lease on just one platform</p>
+            <div class="input-group w-50">
+              <input type="text" class="form-control rounded-start-pill" placeholder="Search...">
+              <button class="btn btn-light border rounded-end-pill">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-   </section>
+  </section>
 </body>
-</html> 
- 
-
-
+</html>
