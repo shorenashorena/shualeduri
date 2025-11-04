@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Main Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -22,25 +25,58 @@
     <a href="#" class="btn btn-success px-4 py-2 fw-semibold rounded-pill">Sell Something</a>
   </header>
   <section class="container my-5">
-    <div class="row g-4">
+    <div class="row g-4 align-items-start">
       <div class="col-lg-4">
-        <div class="card border-0 shadow-sm rounded-4 sidebar-card">
+        <div class="card border-0 shadow-sm rounded-4 sidebar-card p-4">
           <h5 class="fw-bold mb-3">Property Type</h5>
           <ul class="list-unstyled mb-4">
-            <li class="mb-2"><input type="checkbox" id="house" class="form-check-input me-2"><label for="house">Houses & Apartments for Rent | 9548</label></li>
-            <li class="mb-2"><input type="checkbox" id="apartment" class="form-check-input me-2"><label for="apartment">Houses & Apartments for Sale | 9548</label></li>
-            <li class="mb-2"><input type="checkbox" id="studio" class="form-check-input me-2"><label for="studio">Land & Plots for Rent | 9548</label></li>
-            <li class="mb-2"><input type="checkbox" id="villa" class="form-check-input me-2"><label for="villa">Land & Plots for Sale | 9548</label></li>
-            <li class="mb-2"><input type="checkbox" id="shortlet" class="form-check-input me-2"><label for="shortlet">Short Let Property | 9548</label></li>
-            <li class="mb-2"><input type="checkbox" id="commercial" class="form-check-input me-2"><label for="commercial">Commercial Property for Rent | 9548</label></li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="house">
+              <label class="form-check-label" for="house">Houses & Apartments for Rent | 9548</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="apartment">
+              <label class="form-check-label" for="apartment">Houses & Apartments for Sale | 9548</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="studio">
+              <label class="form-check-label" for="studio">Land & Plots for Rent | 9548</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="villa">
+              <label class="form-check-label" for="villa">Land & Plots for Sale | 9548</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="shortlet">
+              <label class="form-check-label" for="shortlet">Short Let Property | 9548</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="commercial">
+              <label class="form-check-label" for="commercial">Commercial Property for Rent | 9548</label>
+            </li>
           </ul>
           <h5 class="fw-bold mb-3">Price Range</h5>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><input type="checkbox" id="range1" class="form-check-input me-2"><label for="range1">Under 13 K • 2183 ads</label></li>
-            <li class="mb-2"><input type="checkbox" id="range2" class="form-check-input me-2"><label for="range2">13 - 160 K • 2183 ads</label></li>
-            <li class="mb-2"><input type="checkbox" id="range3" class="form-check-input me-2"><label for="range3">160 K - 6 M • 2183 ads</label></li>
-            <li class="mb-2"><input type="checkbox" id="range4" class="form-check-input me-2"><label for="range4">6 - 55 M • 2183 ads</label></li>
-            <li class="mb-2"><input type="checkbox" id="range5" class="form-check-input me-2"><label for="range5">Above 55 M • 2183 ads</label></li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="range1">
+              <label class="form-check-label" for="range1">Under 13 K • 2183 ads</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="range2">
+              <label class="form-check-label" for="range2">13 - 160 K • 2183 ads</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="range3">
+              <label class="form-check-label" for="range3">160 K - 6 M • 2183 ads</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="range4">
+              <label class="form-check-label" for="range4">6 - 55 M • 2183 ads</label>
+            </li>
+            <li class="mb-2 form-check">
+              <input class="form-check-input" type="checkbox" id="range5">
+              <label class="form-check-label" for="range5">Above 55 M • 2183 ads</label>
+            </li>
           </ul>
         </div>
       </div>
@@ -59,6 +95,107 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section> 
+  <section class="container my-5">
+    <h2 class="fw-bold mb-4">Trending ads</h2>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <a href="internal.html" class="text-decoration-none">
+          <div class="card custom-card">
+            <div class="card-img-container">
+              <img src="images/auzi1.jpg" class="card-img-top" alt="Auzi 1">
+              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
+              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="card-price fw-bold fs-5 text-success">1450$</span>
+                <span class="card-price-period text-muted">/ Month</span>
+              </div>
+              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+                <span>5 Bedroom</span>
+                <span>3 bathroom</span>
+                <span>450 Sq.m</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="internal.html" class="text-decoration-none">
+          <div class="card custom-card">
+            <div class="card-img-container">
+              <img src="images/vila2.jpg" class="card-img-top" alt="Vila 2">
+              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
+              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="card-price fw-bold fs-5 text-success">1450$</span>
+                <span class="card-price-period text-muted">/ Month</span>
+              </div>
+              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+                <span>5 Bedroom</span>
+                <span>3 bathroom</span>
+                <span>450 Sq.m</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="internal.html" class="text-decoration-none">
+          <div class="card custom-card">
+            <div class="card-img-container">
+              <img src="images/veranda3.jpg" class="card-img-top" alt="Veranda 3">
+              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
+              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="card-price fw-bold fs-5 text-success">1450$</span>
+                <span class="card-price-period text-muted">/ Month</span>
+              </div>
+              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+                <span>5 Bedroom</span>
+                <span>3 bathroom</span>
+                <span>450 Sq.m</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="internal.html" class="text-decoration-none">
+          <div class="card custom-card">
+            <div class="card-img-container">
+              <img src="images/auzi4.jpg" class="card-img-top" alt="Auzi 4">
+              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+            </div>
+            <div class="card-body">
+              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
+              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="card-price fw-bold fs-5 text-success">1450$</span>
+                <span class="card-price-period text-muted">/ Month</span>
+              </div>
+              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+                <span>5 Bedroom</span>
+                <span>3 bathroom</span>
+                <span>450 Sq.m</span>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
