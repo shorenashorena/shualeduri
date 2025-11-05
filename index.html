@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Main Page</title>
+  <meta name="description" content="Real estate platform to buy, rent, or sell properties easily.">
+  <meta property="og:title" content="Robert Real Estate Platform">
+  <meta property="og:description" content="Buy, sell, rent or lease properties with ease.">
+  <meta property="og:image" content="images/mtavari.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourgithubusername.github.io/projectname/">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,53 +37,20 @@
         <div class="card border-0 shadow-sm rounded-4 sidebar-card p-4">
           <h5 class="fw-bold mb-3">Property Type</h5>
           <ul class="list-unstyled mb-4">
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="house">
-              <label class="form-check-label" for="house">Houses & Apartments for Rent | 9548</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="apartment">
-              <label class="form-check-label" for="apartment">Houses & Apartments for Sale | 9548</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="studio">
-              <label class="form-check-label" for="studio">Land & Plots for Rent | 9548</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="villa">
-              <label class="form-check-label" for="villa">Land & Plots for Sale | 9548</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="shortlet">
-              <label class="form-check-label" for="shortlet">Short Let Property | 9548</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="commercial">
-              <label class="form-check-label" for="commercial">Commercial Property for Rent | 9548</label>
-            </li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="house"><label class="form-check-label" for="house">Houses & Apartments for Rent | 9548</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="apartment"><label class="form-check-label" for="apartment">Houses & Apartments for Sale | 9548</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="studio"><label class="form-check-label" for="studio">Land & Plots for Rent | 9548</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="villa"><label class="form-check-label" for="villa">Land & Plots for Sale | 9548</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="shortlet"><label class="form-check-label" for="shortlet">Short Let Property | 9548</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="commercial"><label class="form-check-label" for="commercial">Commercial Property for Rent | 9548</label></li>
           </ul>
           <h5 class="fw-bold mb-3">Price Range</h5>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="range1">
-              <label class="form-check-label" for="range1">Under 13 K • 2183 ads</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="range2">
-              <label class="form-check-label" for="range2">13 - 160 K • 2183 ads</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="range3">
-              <label class="form-check-label" for="range3">160 K - 6 M • 2183 ads</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="range4">
-              <label class="form-check-label" for="range4">6 - 55 M • 2183 ads</label>
-            </li>
-            <li class="mb-2 form-check">
-              <input class="form-check-input" type="checkbox" id="range5">
-              <label class="form-check-label" for="range5">Above 55 M • 2183 ads</label>
-            </li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="range1"><label class="form-check-label" for="range1">Under 13 K • 2183 ads</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="range2"><label class="form-check-label" for="range2">13 - 160 K • 2183 ads</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="range3"><label class="form-check-label" for="range3">160 K - 6 M • 2183 ads</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="range4"><label class="form-check-label" for="range4">6 - 55 M • 2183 ads</label></li>
+            <li class="mb-2 form-check"><input class="form-check-input" type="checkbox" id="range5"><label class="form-check-label" for="range5">Above 55 M • 2183 ads</label></li>
           </ul>
         </div>
       </div>
@@ -89,15 +63,13 @@
             <p class="text-muted mb-4">Buy, sell, rent or lease on just one platform</p>
             <div class="input-group w-50">
               <input type="text" class="form-control rounded-start-pill" placeholder="Search...">
-              <button class="btn btn-light border rounded-end-pill">
-                <i class="bi bi-search"></i>
-              </button>
+              <button class="btn btn-light border rounded-end-pill"><i class="bi bi-search"></i></button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section> 
+  </section>
   <section class="container my-5">
     <h2 class="fw-bold mb-4">Trending ads</h2>
     <div class="row g-4">
@@ -117,107 +89,177 @@
                 <span class="card-price-period text-muted">/ Month</span>
               </div>
               <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
-                <span>5 Bedroom</span>
-                <span>3 bathroom</span>
-                <span>450 Sq.m</span>
+                <span>5 Bedroom</span><span>3 bathroom</span><span>450 Sq.m</span>
               </div>
             </div>
           </div>
         </a>
       </div>
-      <div class="col-lg-3 col-md-6">        
-          <div class="card custom-card">
-            <div class="card-img-container">
-              <img src="images/vila2.jpg" class="card-img-top" alt="Vila 2">
-              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
-              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/vila2.jpg" class="card-img-top" alt="Vila 2">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Modern Apartment in Downtown</h6>
+            <p class="card-location text-muted small mb-3">Nairobi, CBD</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">2200$</span>
+              <span class="card-price-period text-muted">/ Month</span>
             </div>
-            <div class="card-body">
-              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
-              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <span class="card-price fw-bold fs-5 text-success">1450$</span>
-                <span class="card-price-period text-muted">/ Month</span>
-              </div>
-              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
-                <span>5 Bedroom</span>
-                <span>3 bathroom</span>
-                <span>450 Sq.m</span>
-              </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>4 Bedroom</span><span>2 bathroom</span><span>350 Sq.m</span>
             </div>
           </div>
-        </a>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6">        
-          <div class="card custom-card">
-            <div class="card-img-container">
-              <img src="images/veranda3.jpg" class="card-img-top" alt="Veranda 3">
-              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
-              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/veranda3.jpg" class="card-img-top" alt="Veranda 3">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Luxury Villa with Veranda</h6>
+            <p class="card-location text-muted small mb-3">Mombasa, Coast</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">3100$</span>
+              <span class="card-price-period text-muted">/ Month</span>
             </div>
-            <div class="card-body">
-              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
-              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <span class="card-price fw-bold fs-5 text-success">1450$</span>
-                <span class="card-price-period text-muted">/ Month</span>
-              </div>
-              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
-                <span>5 Bedroom</span>
-                <span>3 bathroom</span>
-                <span>450 Sq.m</span>
-              </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>6 Bedroom</span><span>4 bathroom</span><span>600 Sq.m</span>
             </div>
           </div>
-        </a>
+        </div>
       </div>
-      <div class="col-lg-3 col-md-6">        
-          <div class="card custom-card">
-            <div class="card-img-container">
-              <img src="images/auzi4.jpg" class="card-img-top" alt="Auzi 4">
-              <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
-              <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/auzi4.jpg" class="card-img-top" alt="Auzi 4">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Beachfront House for Rent</h6>
+            <p class="card-location text-muted small mb-3">Diani Beach, Kenya</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">2700$</span>
+              <span class="card-price-period text-muted">/ Month</span>
             </div>
-            <div class="card-body">
-              <h6 class="card-title fw-semibold mb-1">200 Acres Parcel for Sale in Namanga</h6>
-              <p class="card-location text-muted small mb-3">Kajiado, Namanga</p>
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <span class="card-price fw-bold fs-5 text-success">1450$</span>
-                <span class="card-price-period text-muted">/ Month</span>
-              </div>
-              <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
-                <span>5 Bedroom</span>
-                <span>3 bathroom</span>
-                <span>450 Sq.m</span>
-              </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>5 Bedroom</span><span>3 bathroom</span><span>500 Sq.m</span>
             </div>
           </div>
-        </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/house5.jpg" class="card-img-top" alt="House 5">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Elegant Family Home</h6>
+            <p class="card-location text-muted small mb-3">Nakuru, Lanet</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">1900$</span>
+              <span class="card-price-period text-muted">/ Month</span>
+            </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>4 Bedroom</span><span>2 bathroom</span><span>400 Sq.m</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/house6.jpg" class="card-img-top" alt="House 6">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Modern Cottage</h6>
+            <p class="card-location text-muted small mb-3">Naivasha, Lake View</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">1300$</span>
+              <span class="card-price-period text-muted">/ Month</span>
+            </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>3 Bedroom</span><span>2 bathroom</span><span>300 Sq.m</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/house7.jpg" class="card-img-top" alt="House 7">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Luxury Mansion</h6>
+            <p class="card-location text-muted small mb-3">Karen, Nairobi</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">4500$</span>
+              <span class="card-price-period text-muted">/ Month</span>
+            </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>7 Bedroom</span><span>5 bathroom</span><span>800 Sq.m</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card custom-card">
+          <div class="card-img-container">
+            <img src="images/house8.jpg" class="card-img-top" alt="House 8">
+            <span class="vip-top-badge bg-success text-white px-2 py-1 rounded-pill fw-semibold">VIP TOP+</span>
+            <i class="bi bi-house-door-fill house-icon bg-white text-success rounded-circle p-2"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title fw-semibold mb-1">Stylish Loft Apartment</h6>
+            <p class="card-location text-muted small mb-3">Westlands, Nairobi</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="card-price fw-bold fs-5 text-success">2500$</span>
+              <span class="card-price-period text-muted">/ Month</span>
+            </div>
+            <div class="d-flex justify-content-between text-muted border-top pt-2 card-features">
+              <span>4 Bedroom</span><span>3 bathroom</span><span>420 Sq.m</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <footer class="site-footer">
     <div class="footer-content">
-        <div class="footer-section footer-links">
-            <a href="#">Home</a>
-            <a href="#">Discover</a>
-            <a href="#">Contact us</a>
-            <a href="#">Sing In</a>
-        </div>
-        <div class="footer-section footer-email">
-            <span>Support@roberts.com</span>
-        </div>
-        <div class="footer-section footer-social">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">YouTube</a>
-            <a href="#">Twitter</a>
-        </div>
+      <div class="footer-section footer-links">
+        <a href="#">Home</a>
+        <a href="#">Discover</a>
+        <a href="#">Contact us</a>
+        <a href="#">Sign In</a>
+      </div>
+      <div class="footer-section footer-email">
+        <span>Support@roberts.com</span>
+      </div>
+      <div class="footer-section footer-social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Twitter</a>
+      </div>
     </div>
     <hr class="footer-divider">
     <div class="footer-copyright">
-        &copy; 2022 robert.co.ke Gibraltar
+      &copy; 2022 robert.co.ke Gibraltar
     </div>
-</footer>
+  </footer>
 </body>
 </html>
